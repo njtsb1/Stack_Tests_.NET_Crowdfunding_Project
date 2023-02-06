@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Crowdfunding.MVC\Crowdfunding.MVC.csproj" />
+    <ProjectReference Include="..\..\src\Crowdfunding.Service\Crowdfunding.Service.csproj" />
+    <ProjectReference Include="..\..\src\Crowdfunding.Repository\Crowdfunding.Repository.csproj" />
+    <ProjectReference Include="..\..\src\Crowdfunding.Domain\Crowdfunding.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="29.0.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
