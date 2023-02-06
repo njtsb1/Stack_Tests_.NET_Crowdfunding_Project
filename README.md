@@ -1,6 +1,6 @@
-# Daily learning
+Daily learning
 
-## Stack Tests .NET Crowdfunding Project
+# Stack Tests .NET Crowdfunding Project
 
 Project developed in Bootcamp Avanade Fullstack Developer with expert instruction
 [Eliézer Zarpelão](https://github.com/elizarp "Eliézer Zarpelão").</br>
